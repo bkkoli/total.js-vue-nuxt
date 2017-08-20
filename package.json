@@ -1,0 +1,24 @@
+{
+    "name": "nuxt-middleware",
+    "version": "1.0.0",
+    "description": "integrating total.js and nuxt.js",
+    "main": "index.js",
+    "scripts": {
+        "dev": "node debug.js",
+        "build": "nuxt build",
+        "prod": "npm run generate && node release.js",
+        "generate": "nuxt generate"
+    },
+    "keywords": [
+        "total.js",
+        "nuxt.js",
+        "vue.js"
+    ],
+    "author": "ckpiggy",
+    "license": "MIT",
+    "dependencies": {
+        "axios": "0.16.2",
+        "nuxt": "next",
+        "total.js": "^2.6.3-3"
+    }
+}
