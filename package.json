@@ -14,10 +14,8 @@
         "nuxt.js",
         "vue.js"
     ],
-    "author": "ckpiggy",
-    "license": "MIT",
+    "author": "Greg Kroczek",
     "dependencies": {
-        "axios": "0.16.2",
         "nuxt": "next",
         "total.js": "^2.6.3-3"
     }
